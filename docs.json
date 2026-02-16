@@ -30,7 +30,6 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "ai-features",
               "product-features",
               "quickstart",
               "development"
