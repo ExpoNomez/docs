@@ -1,0 +1,31 @@
+---
+title: "Product Features"
+---
+
+Core Features (MVP)
+
+1. One-click Easy Mode (Automated Vaults)
+   - User connects wallet → chooses risk profile (Conservative / Balanced / Aggressive) → clicks “Provide Liquidity”.
+   - Back end allocates into a basket of vetted Polymarket markets using prebuilt strategies, issues vLP tokens to user.
+2. Pro Mode (Manual Concentrated LP)
+   - Select markets, specify price/probability ranges, capital, and slippage limits. Create, edit, withdraw positions.
+3. Non-Custodial Vaults + Wrapped LP Tokens
+   - Users deposit stablecoin/ETH into vaults; vaults programmatically create liquidity positions on Polymarket; users receive transferable vLP tokens representing share.
+4. Auto-Exit Policies
+   - Rules like: exit when breakeven, exit if loss \> X%, force exit, exit near market close. These run on-chain (trusted multisig/automation) or via a decentralized keeper service.
+5. Alerts & Notifications
+   - Order fills, margin breakeven, auto-exit triggered, reward distribution. Channels: in-app, email, push, webhooks.
+6. Fee Accounting / Reward Distribution
+   - Display earned Polymarket fees and any platform incentive tokens; allow claiming and staking.
+
+Valuable Differentiators (v1+)
+
+- AI Suggestions: Per-market risk score (safe→risky), suggested ranges for concentrated liquidity, expected fee APR, and “why” text explaining the recommendation.
+- Liquidity Rebalancer: Automatic re-allocation between markets to chase higher fee yield or protect downside.
+- Market Discovery & Watchlists with on-chain liquidity heatmap and historical slippage chart.
+- Simulation Mode: Show users expected P&L under different price move scenarios.
+- DAO/Governance for Reward Allocation (optional later).
+
+Nice-to-Have (Future)
+
+- Social features (copy LP strategies), marketplace for vLP positions, leverage strategies (very risky, regulatory concerns).
