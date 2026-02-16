@@ -29,6 +29,7 @@
           {
             "group": "Getting started",
             "pages": [
+              "ai-features",
               "index",
               "product-features",
               "quickstart",
