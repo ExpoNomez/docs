@@ -11,12 +11,12 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Flowlayer",
           "icon": "book-open-cover",
           "href": "https://mintlify.com/docs"
         },
         {
-          "anchor": "Blog",
+          "anchor": "Twitter",
           "icon": "newspaper",
           "href": "https://mintlify.com/blog"
         }
@@ -27,12 +27,12 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Documentation",
             "pages": [
               "overview",
               "product",
-              "vision",
               "technology",
+              "vision",
               "benefits"
             ]
           },
