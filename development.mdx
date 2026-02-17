@@ -1,49 +1,39 @@
-# Product
+---
+title: "Technology"
+---
 
-## Two-Tier User System
+## Architecture Overview
 
-<CardGroup cols={2}>
-  <Card title="Easy Mode" icon="sparkles">
-    One-click liquidity vaults with predefined strategies and automation.
+<CardGroup cols={3}>
+  <Card title="Frontend">
+    React interface with dual Easy/Pro flows.
   </Card>
 
-  <Card title="Pro Mode" icon="sliders">
-    Manual range-based LP creation with analytics and simulations.
+  <Card title="Strategy Engine">
+    Off-chain models compute allocations and risk signals.
+  </Card>
+
+  <Card title="Smart Contracts">
+    Non-custodial vaults mint share tokens and manage LP positions.
   </Card>
 </CardGroup>
 
 ---
 
-## Core Features
+## Automation Layer
 
-<Steps>
-  <Step title="Connect Wallet">
-    Users connect and choose a strategy or build their own position.
-  </Step>
-
-  <Step title="Capital Deployment">
-    Funds are allocated into vetted markets via vault contracts.
-  </Step>
-
-  <Step title="Automation Layer">
-    Exit rules, alerts, and rebalancing protect capital.
-  </Step>
-
-  <Step title="Yield Collection">
-    Users earn market fees plus optional incentives.
-  </Step>
-</Steps>
+- Keeper-based exit execution  
+- Rebalancing triggers  
+- Event indexing for fees and positions  
 
 ---
 
-## Differentiators
+## Security Design
 
-- AI risk scoring per market  
-- Suggested probability ranges  
-- Liquidity heatmaps  
-- Simulation engine  
-- Automated exit policies  
-
-<Callout type="success">
-Flowlayer converts liquidity provision into a structured product rather than a trading workflow.
+<Callout type="warning">
+All vault logic is designed to remain non-custodial and auditable, minimizing regulatory and counterparty risk.
 </Callout>
+
+- Multisig admin control  
+- Time-locked upgrades  
+- Emergency pause mechanisms  
