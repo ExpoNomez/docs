@@ -29,10 +29,10 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
+              "overview",
               "product",
-              "quickstart",
-              "development",
+              "vision",
+              "technology",
               "benefits"
             ]
           },
