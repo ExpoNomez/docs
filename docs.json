@@ -30,9 +30,10 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "product-features",
+              "product",
               "quickstart",
-              "development"
+              "development",
+              "benefits"
             ]
           },
           {
