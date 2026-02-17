@@ -81,13 +81,11 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Website",
-        "href": "https://mintlify.com"
-      }
-    ]
+    "primary": {
+      "type": "button",
+      "label": "Website",
+      "href": "https://dashboard.mintlify.com"
+    }
   },
   "contextual": {
     "options": [
