@@ -81,14 +81,7 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ]
-  },
+  
   "contextual": {
     "options": [
      "copy",
