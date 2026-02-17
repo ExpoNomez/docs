@@ -81,7 +81,7 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-    "primary": {
+  "primary": {
       "type": "button",
       "label": "Website",
       "href": "https://dashboard.mintlify.com"
